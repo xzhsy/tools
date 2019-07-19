@@ -22,7 +22,7 @@ class siteCheck(object):
     def sendmail(self):
         mail_host = 'mail.asiainfo.com'
         mail_user = 'hanchang@asiainfo.com'
-        mail_pass = 'Xzhsy@019'
+        mail_pass = 'demo'
 
         sender = 'hanchang@asiainfo.com'
         receivers = ['2665185155@qq.com']
