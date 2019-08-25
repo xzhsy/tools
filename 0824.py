@@ -85,13 +85,13 @@ class Connect(object):
         # content = json.loads(contentb, strict=False)
         response.close()
         contact_list = content['data']['content']
-        userinfo = [] 
         faillist=[]
         while len(contact_list) != 0 or len(faillist) !=0:
             try:
                 if len(contact_list) == 0:
                     contact_list = faillist
                 for i in contact_list:
+                    userinfo = []
                     # print(i)
                     baseuser={}
                     baseuser['工单id'] = i['orderNo']
@@ -148,10 +148,12 @@ if __name__ == '__main__':
     number = 0
     token=basereq.get_token()
     total = basereq.totale(token)
-    while number <= total:
+    number2 = 0
+    while number2 <= total:
         try:
             basereq.reqbase(number,token)
-            number = number + 100
+            number2 = number2 + 100
+            number = number + 1
         except Exception as e:
             token=basereq.get_token()
             print(e)        
