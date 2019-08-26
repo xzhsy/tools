@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="765e6bef-b39c-41f6-aaef-75bf5866f8a9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/sitecheck2.py" beforeDir="false" afterPath="$PROJECT_DIR$/sitecheck2.py" afterDir="false" />
+    <list default="true" id="765e6bef-b39c-41f6-aaef-75bf5866f8a9" name="Default Changelist" comment="1.采用默认编码格式# -*- coding:UTF-8 -*-&#10;2.sitecheck2.python2.* 实现发信,引入采用本地postfix发信实现方式，未备案域名则不可用。&#10;3.sitecheck.py python3">
+      <change afterPath="$PROJECT_DIR$/processtest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ip.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ip.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kantongcerdik.py" beforeDir="false" afterPath="$PROJECT_DIR$/kantongcerdik.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -78,14 +81,23 @@
         <option value="$PROJECT_DIR$/ipquery.py" />
         <option value="$PROJECT_DIR$/sitecheck.py" />
         <option value="$PROJECT_DIR$/sitecheck2.py" />
+        <option value="$PROJECT_DIR$/ipproxy.py" />
+        <option value="$PROJECT_DIR$/xiaodai.py" />
+        <option value="$PROJECT_DIR$/threads.py" />
+        <option value="$PROJECT_DIR$/threadetest.py" />
+        <option value="$PROJECT_DIR$/processtest.py" />
+        <option value="$PROJECT_DIR$/kantongcerdik.py" />
+        <option value="$PROJECT_DIR$/login.py" />
+        <option value="$PROJECT_DIR$/logindemo.py" />
+        <option value="$PROJECT_DIR$/tongji.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1940" />
-    <option name="y" value="72" />
-    <option name="width" value="1552" />
-    <option name="height" value="840" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1440" />
+    <option name="height" value="775" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -93,6 +105,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -104,7 +117,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -112,7 +124,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="database.console.LAST_STATE" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../learning_logs" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../webtools" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -141,8 +153,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.sitecheck">
-    <configuration name="demofile" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.tongji">
+    <configuration name="kantongcerdik" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="zxdeploy" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -155,7 +167,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/demofile.py" />
+      <option name="SCRIPT_NAME" value="F:\python-test\webtools\kantongcerdik.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -164,7 +176,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ipquery" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="login" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="zxdeploy" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -177,7 +189,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ipquery.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/login.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -186,7 +198,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="sitecheck" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="logindemo" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="zxdeploy" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -199,7 +211,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sitecheck.py" />
+      <option name="SCRIPT_NAME" value="F:\python-test\webtools\logindemo.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -208,7 +220,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="xltsql" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="processtest" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="zxdeploy" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -221,7 +233,29 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="F:\python-test\zxdeploy\jobpath.py" />
+      <option name="SCRIPT_NAME" value="F:\python-test\webtools\processtest.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="tongji" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="zxdeploy" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="F:\python-test\webtools\tongji.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -232,10 +266,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.sitecheck" />
-        <item itemvalue="Python.ipquery" />
-        <item itemvalue="Python.xltsql" />
-        <item itemvalue="Python.demofile" />
+        <item itemvalue="Python.tongji" />
+        <item itemvalue="Python.logindemo" />
+        <item itemvalue="Python.login" />
+        <item itemvalue="Python.kantongcerdik" />
+        <item itemvalue="Python.processtest" />
       </list>
     </recent_temporary>
   </component>
@@ -265,6 +300,16 @@
       <workItem from="1563240261805" duration="1034000" />
       <workItem from="1563436130341" duration="2746000" />
       <workItem from="1563499650112" duration="22874000" />
+      <workItem from="1565657806018" duration="26413000" />
+      <workItem from="1565748215733" duration="16014000" />
+      <workItem from="1565783104963" duration="287000" />
+      <workItem from="1565830672192" duration="13440000" />
+      <workItem from="1565850101307" duration="8362000" />
+      <workItem from="1565936938722" duration="1247000" />
+      <workItem from="1566182527619" duration="599000" />
+      <workItem from="1566262548311" duration="20500000" />
+      <workItem from="1566781011355" duration="653000" />
+      <workItem from="1566783336928" duration="1768000" />
     </task>
     <task id="LOCAL-00001" summary="1.采用默认编码格式# -*- coding:UTF-8 -*-&#10;2.sitecheck2.python2.* 实现发信,引入采用本地postfix发信实现方式，未备案域名则不可用。&#10;3.sitecheck.py python3">
       <created>1563542823671</created>
@@ -273,11 +318,39 @@
       <option name="project" value="LOCAL" />
       <updated>1563542823671</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="1.xiaodai.py 爬虫测试&#10;2.ipproxy.py  xiaodai.py 使用ip代理地址检测">
+      <created>1565699344392</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1565699344392</updated>
+    </task>
+    <task id="LOCAL-00003" summary="格式化爬虫规则">
+      <created>1565783319110</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1565783319110</updated>
+    </task>
+    <task id="LOCAL-00004" summary="多线程实现">
+      <created>1565855943627</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1565855943627</updated>
+    </task>
+    <task id="LOCAL-00005" summary="1.logindemo模拟登陆实现&#10;2、tongji 进一步传入参数实现模拟登陆">
+      <created>1566371676907</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1566371676907</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52956000" />
+    <option name="totallyTimeSpent" value="142239000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -289,30 +362,31 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.11673774" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.097184986" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.20173536" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33002833" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39869988" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32922733" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.329718" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3286119" />
       <window_info anchor="bottom" id="Database Changes" order="9" weight="0.32922733" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.25979844" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.2592068" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32922733" />
       <window_info anchor="bottom" id="Database Console" order="13" visible="true" weight="0.38969764" />
+      <window_info anchor="bottom" id="Messages" order="14" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" weight="0.3294621" />
-      <window_info anchor="right" id="Database" order="4" visible="true" weight="0.22121535" />
+      <window_info anchor="right" id="Database" order="4" weight="0.22117962" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -343,16 +417,53 @@
         </entry>
       </map>
     </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1.采用默认编码格式# -*- coding:UTF-8 -*-&#10;2.sitecheck2.python2.* 实现发信,引入采用本地postfix发信实现方式，未备案域名则不可用。&#10;3.sitecheck.py python3" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.采用默认编码格式# -*- coding:UTF-8 -*-&#10;2.sitecheck2.python2.* 实现发信,引入采用本地postfix发信实现方式，未备案域名则不可用。&#10;3.sitecheck.py python3" />
+    <MESSAGE value="1.xiaodai.py 爬虫测试&#10;2.ipproxy.py  xiaodai.py 使用ip代理地址检测" />
+    <MESSAGE value="格式化爬虫规则" />
+    <MESSAGE value="多线程实现" />
+    <MESSAGE value="1.logindemo模拟登陆实现&#10;2、tongji 进一步传入参数实现模拟登陆" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.logindemo模拟登陆实现&#10;2、tongji 进一步传入参数实现模拟登陆" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ipquery.py</url>
+          <line>2</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/zxdeploy$xltsql.coverage" NAME="xltsql Coverage Results" MODIFIED="1562311546554" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/zxdeploy$kantongcerdik.coverage" NAME="kantongcerdik Coverage Results" MODIFIED="1566279189651" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/zxdeploy$threadetest.coverage" NAME="threadetest Coverage Results" MODIFIED="1565854341325" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/zxdeploy$tongji.coverage" NAME="tongji Coverage Results" MODIFIED="1566370356849" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/zxdeploy$demofile.coverage" NAME="demofile Coverage Results" MODIFIED="1562037264588" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/zxdeploy$sitecheck.coverage" NAME="sitecheck Coverage Results" MODIFIED="1563525339398" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/zxdeploy$xiaodai.coverage" NAME="xiaodai Coverage Results" MODIFIED="1565687344647" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/zxdeploy$login.coverage" NAME="login Coverage Results" MODIFIED="1566359867724" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/zxdeploy$processtest.coverage" NAME="processtest Coverage Results" MODIFIED="1565856366067" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/zxdeploy$ipquery.coverage" NAME="ipquery Coverage Results" MODIFIED="1563514757882" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/zxdeploy$ipproxy.coverage" NAME="ipproxy Coverage Results" MODIFIED="1565680584059" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/zxdeploy$logindemo.coverage" NAME="logindemo Coverage Results" MODIFIED="1566368691139" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="editorHistoryManager">
     <entry file="das://60438290-7897-4827-bb05-c0895bad211c/collation/RTRIM">
@@ -448,13 +559,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/checkstatus.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="59" selection-start-line="15" selection-start-column="59" selection-end-line="15" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ip.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
@@ -462,11 +566,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/mvn.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="38">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sitecheck2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-114">
+          <caret column="17" lean-forward="true" selection-start-column="17" selection-end-column="17" />
           <folding>
-            <element signature="e#18#33#0" expanded="true" />
+            <element signature="e#41#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sitecheck.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1083">
+          <caret column="22" selection-start-column="22" selection-end-column="22" />
+          <folding>
+            <element signature="e#23#33#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -480,40 +610,94 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/demofile.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
+        <state relative-caret-position="-107">
           <caret line="10" column="35" lean-forward="true" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ipproxy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-133">
+          <caret line="13" column="18" lean-forward="true" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+          <folding>
+            <element signature="e#25#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xiaodai.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-376">
+          <caret line="79" column="9" selection-start-line="79" selection-end-line="94" selection-end-column="17" />
+          <folding>
+            <element signature="e#25#58#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ipquery.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
-          <caret line="1" column="22" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sitecheck2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="17" lean-forward="true" selection-start-column="17" selection-end-column="17" />
+          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="22" />
           <folding>
-            <element signature="e#42#52#0" expanded="true" />
+            <element signature="e#41#68#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sitecheck.py">
+    <entry file="file://$PROJECT_DIR$/threads.py" />
+    <entry file="file://$PROJECT_DIR$/threadetest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-114">
-          <caret column="22" selection-start-column="22" selection-end-column="22" />
+        <state relative-caret-position="231">
+          <caret line="17" column="42" lean-forward="true" selection-end-line="31" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/processtest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="35" selection-start-column="35" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/checkstatus.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="15" column="59" selection-start-line="15" selection-start-column="59" selection-end-line="15" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login.py" />
+    <entry file="file://$PROJECT_DIR$/kantongcerdik.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="44" column="41" selection-start-line="44" selection-start-column="34" selection-end-line="44" selection-end-column="41" />
+          <folding>
+            <element signature="e#46#79#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tongji.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1369">
+          <caret line="18" column="48" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="48" />
+          <folding>
+            <element signature="e#46#88#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logindemo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="40" column="5" selection-start-line="39" selection-end-line="42" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
